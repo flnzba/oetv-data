@@ -9,6 +9,6 @@ site = BeautifulSoup(result.text, "html.parser")
 
 itn = site.find_all(text="ITN")
 parent_itn = itn[0].parent
-header = parent_itn.find("header")
-
-print(header.string) #print what was found within the first parent in the header of the table?
+print(itn)
+# header = parent_itn.find("header")
+# print(header.string) #print what was found within the first parent in the header of the table?

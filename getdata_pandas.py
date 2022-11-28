@@ -1,3 +1,5 @@
+# requiered packages: pandas, lxml
+
 import pandas as pd
 
 url = 'https://www.oetv.at/rangliste/itn.html'
